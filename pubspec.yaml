@@ -1,0 +1,32 @@
+name: sentiapractice
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.1.1 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  fonts:
+    - family: Default
+      fonts:
+        - asset: assets/fonts/ss3/regular.ttf
+        - asset: assets/fonts/ss3/italic.ttf
+          style: italic
+        - asset: assets/fonts/ss3/bold.ttf
+          weight: 700
+        - asset: assets/fonts/ss3/bold_italic.ttf
+          weight: 700
+          style: italic
+
