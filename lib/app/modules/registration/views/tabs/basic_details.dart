@@ -396,7 +396,7 @@ class ObstetricHistorySection extends GetView<RegistrationController> {
                     decoration:
                         FormWidgetStyles.inputFieldDecorationWithAddRemove(
                             controller.gravidaEC),
-                    textAlign: TextAlign.center,
+                    textAlign: TextAlign.start,
                     style: FormWidgetStyles.inputFieldTextStyle,
                   ),
                 ),
@@ -421,7 +421,7 @@ class ObstetricHistorySection extends GetView<RegistrationController> {
                         FormWidgetStyles.inputFieldDecorationWithAddRemove(
                       controller.paraEC,
                     ),
-                    textAlign: TextAlign.center,
+                    textAlign: TextAlign.start,
                     style: FormWidgetStyles.inputFieldTextStyle,
                   ),
                 ),
@@ -451,7 +451,7 @@ class ObstetricHistorySection extends GetView<RegistrationController> {
                       FormWidgetStyles.inputFieldDecorationWithAddRemove(
                     controller.livingChildrenEC,
                   ),
-                  textAlign: TextAlign.center,
+                  textAlign: TextAlign.start,
                   style: FormWidgetStyles.inputFieldTextStyle,
                 ),
               ),
@@ -476,7 +476,7 @@ class ObstetricHistorySection extends GetView<RegistrationController> {
                       FormWidgetStyles.inputFieldDecorationWithAddRemove(
                     controller.miscarriagesEC,
                   ),
-                  textAlign: TextAlign.center,
+                  textAlign: TextAlign.start,
                   style: FormWidgetStyles.inputFieldTextStyle,
                 ),
               ),

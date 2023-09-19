@@ -41,48 +41,48 @@ class FormWidgetStyles {
   static InputDecoration inputFieldDecorationWithAddRemove(
       TextEditingController editingController) {
     return FormWidgetStyles.inputFieldDecoration.copyWith(
-      suffixIcon: Padding(
-        padding: const EdgeInsets.only(right: 8),
-        child: InkWell(
-          onTap: () async {
-            String currentText = editingController.text;
-            int currentValue = int.tryParse(currentText) ?? 0;
-            int newValue = currentValue + 1;
-            editingController.text = newValue.toString();
-          },
-          child: const Icon(
-            Icons.add,
-            color: Pallet.formHintText,
-          ),
-        ),
-      ),
-      suffixIconConstraints: const BoxConstraints(
-        minWidth: 0,
-        minHeight: 0,
-      ),
-      prefixIcon: Padding(
-        padding: const EdgeInsets.only(left: 8),
-        child: InkWell(
-          onTap: () async {
-            String currentText = editingController.text;
-            int currentValue = int.tryParse(currentText) ?? 0;
-            int newValue = currentValue;
-            if (currentValue != 0) {
-              newValue--;
-            }
-            editingController.text = newValue.toString();
-          },
-          child: const Icon(
-            Icons.remove,
-            color: Pallet.formHintText,
-          ),
-        ),
-      ),
-      prefixIconConstraints: const BoxConstraints(
-        minWidth: 0,
-        minHeight: 0,
-      ),
-    );
+        // suffixIcon: Padding(
+        //   padding: const EdgeInsets.only(right: 8),
+        //   child: InkWell(
+        //     onTap: () async {
+        //       String currentText = editingController.text;
+        //       int currentValue = int.tryParse(currentText) ?? 0;
+        //       int newValue = currentValue + 1;
+        //       editingController.text = newValue.toString();
+        //     },
+        //     child: const Icon(
+        //       Icons.add,
+        //       color: Pallet.formHintText,
+        //     ),
+        //   ),
+        // ),
+        // suffixIconConstraints: const BoxConstraints(
+        //   minWidth: 0,
+        //   minHeight: 0,
+        // ),
+        // prefixIcon: Padding(
+        //   padding: const EdgeInsets.only(left: 8),
+        //   child: InkWell(
+        //     onTap: () async {
+        //       String currentText = editingController.text;
+        //       int currentValue = int.tryParse(currentText) ?? 0;
+        //       int newValue = currentValue;
+        //       if (currentValue != 0) {
+        //         newValue--;
+        //       }
+        //       editingController.text = newValue.toString();
+        //     },
+        //     child: const Icon(
+        //       Icons.remove,
+        //       color: Pallet.formHintText,
+        //     ),
+        //   ),
+        // ),
+        // prefixIconConstraints: const BoxConstraints(
+        //   minWidth: 0,
+        //   minHeight: 0,
+        // ),
+        );
   }
 
   static EdgeInsetsGeometry inputFieldPaddingLTR = const EdgeInsets.only(
